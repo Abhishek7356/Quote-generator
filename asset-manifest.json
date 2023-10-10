@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Quote-generator/static/css/main.eaeb720c.css",
-    "main.js": "/Quote-generator/static/js/main.15d70552.js",
+    "main.css": "/Quote-generator/static/css/main.41768376.css",
+    "main.js": "/Quote-generator/static/js/main.09cf07a9.js",
     "static/media/fa-solid-900.ttf": "/Quote-generator/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/fa-brands-400.ttf": "/Quote-generator/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
     "static/media/fa-solid-900.woff2": "/Quote-generator/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
@@ -11,11 +11,11 @@
     "static/media/fa-v4compatibility.ttf": "/Quote-generator/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
     "static/media/fa-v4compatibility.woff2": "/Quote-generator/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/Quote-generator/index.html",
-    "main.eaeb720c.css.map": "/Quote-generator/static/css/main.eaeb720c.css.map",
-    "main.15d70552.js.map": "/Quote-generator/static/js/main.15d70552.js.map"
+    "main.41768376.css.map": "/Quote-generator/static/css/main.41768376.css.map",
+    "main.09cf07a9.js.map": "/Quote-generator/static/js/main.09cf07a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaeb720c.css",
-    "static/js/main.15d70552.js"
+    "static/css/main.41768376.css",
+    "static/js/main.09cf07a9.js"
   ]
 }
