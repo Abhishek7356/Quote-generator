@@ -28,19 +28,20 @@ function Home() {
     }
 
     return (
-
-        <div className='bg-dark mx-auto shadow outerContainer'>
-            {!load ?
-                <div className='quote'>
-
-                    <h4><em>' {quote.quote} '</em></h4>
-                    <em className='author'>-{quote.author}</em>
-
-                </div> : <MDBSpinner className='loading' role='status'>
-                    <span className='visually-hidden'>Loading...</span>
-                </MDBSpinner>
-            }
-            <MDBBtn onClick={handlerquote} className='mt-4 generatorBtn'>Generate</MDBBtn>
+        <div className='outerContainer'>
+            <div className='quoteContainer shadow'>
+                {!load ? <h4 className='quote'>{quote.quote}</h4> :
+                    <div className='d-flex justify-content-center'>
+                        <MDBSpinner grow className='text-center' color='secondary'>
+                            <span className='visually-hidden'>Loading...</span>
+                        </MDBSpinner>
+                    </div>
+                }
+                <div className='author'>
+                    <em>- {quote.author}</em>
+                    <button onClick={handlerquote} className='refreshbtn'><i class="fa-solid fa-rotate-right"></i></button>
+                </div>
+            </div>
         </div>
     )
 }

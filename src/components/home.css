@@ -1,41 +1,62 @@
-
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Josefin+Sans:ital,wght@1,700&family=Montserrat:wght@500&family=Open+Sans&family=Quicksand:wght@300&family=Raleway:wght@200;300&family=Roboto:ital,wght@0,400;1,300;1,400&family=Work+Sans:ital,wght@1,300&display=swap');
 
 .outerContainer {
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c2238;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.quoteContainer {
+    width: 40%;
     margin: auto;
-    width: 600px;
-    height: 270px;
-    color: aliceblue;
-    display:block;
-    padding: 30px;
-    margin: 100px ;
-    border-radius: 10px;
-    position: relative;
+    background-image: linear-gradient(#625ac4, #473cbf);
+    background-color: #625ac4;
+    color: #fff;
+    border-radius: 7px;
+    padding: 40px 60px 20px;
+}
+
+.quote {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 40px;
+    text-align: center;
 }
 
 .author {
     display: flex;
-    justify-content: end;
-    margin-right: 30px;
+    justify-content: space-between;
 }
 
-.loading {
-    position: absolute;
-    top: 20%;
-    left: 47%;
+.refreshbtn {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    font-size: 17px;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
 }
 
-.generatorBtn {
-    position: absolute !important;
-    bottom: 20px !important;
-    left: 50% !important;
-    transform: translate(-50%, 0);
+.refreshbtn:hover {
+    color: #473cbf;
+    background-color: #ffffffab;
+    transition: .2s;
 }
 
-@media only screen and (max-width: 600px) {
-    .outerContainer {
-        width: 100%;
-        min-height: 220px;
-        padding: 30px 20px;
-        margin: 50px 10px;
+
+@media screen and (max-width: 600px) {
+    .quoteContainer {
+        width: 90%;
+        margin: auto;
+        background-image: linear-gradient(#625ac4, #473cbf);
+        color: #fff;
+        border-radius: 7px;
+        padding: 20px 10px 20px;
     }
 }

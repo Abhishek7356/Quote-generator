@@ -8,7 +8,7 @@ import {
 function TopBar() {
     return (
         <div>
-            <MDBNavbar light bgColor='info'>
+            <MDBNavbar light bgColor='' style={{background:'#1c2238'}}>
                 <MDBContainer fluid>
                     <MDBNavbarBrand tag="span" className='mb-0 h1 text-light'>QUOTE GENERATOR</MDBNavbarBrand>
                 </MDBContainer>
